@@ -1,0 +1,53 @@
+:root {
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --grayish-red:  hsl(0, 6%, 24%);
+}
+
+html {
+  font-size: 16px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  padding: 28px;
+}
+
+header img {
+  width: 100px;
+}
+
+[alt="hero banner"] {
+  width: 100%;
+}
+
+/* 
+1. absolute units - 100px
+2. relative units - %, em, rem
+
+em - parent multiplier
+2em -> 32px
+
+<div font-size: 20px>
+  <p font-size: 2em>asdfasdf</p>
+</div>
+
+rem - root multiplier
+2rem - 2* 16 = 32px
+*/
+
+h1 {
+  font-size: 3rem;
+  /* 2rem - 2 * 16px  = 32px*/
+  /* 3.5 * 20px */
+}

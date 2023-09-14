@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <title>Form</title>
+</head>
+<body>
+
+  <!-- 
+    HTTP Methods
+    GET - to get the data from there server
+    POST - to post the data to the server
+    PUT - to create a modified record
+    PATCH - to modify existing record
+    DELETE - to delete the record
+
+   -->
+
+   <!-- action - backend form submission link
+    method - http method
+   -->
+
+  <form action="/submit.php" method="get">
+    <input type="email" required  name="something" placeholder="enter email">
+    <input type="password" required name="password" autofocus placeholder="enter password">
+    <input type="submit">
+  </form>
+
+</body>
+</html>
+
+
+<!-- 
+
+  http://127.0.0.1:5500/submit.php?
+    email=tpzuf%40gmail.com&
+    password=asdfasdfadsfasdf
+
+
+    http://127.0.0.1:5500/submit.php?
+    something=fasdf%40adf.com&
+    password=asdfasdf
+ -->

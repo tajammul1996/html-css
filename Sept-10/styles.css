@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  background-color: maroon;
+  color: white;
+}
+
+p {
+  font-size: 30px;
+}
+
+/* 
+  tablet  >=768px
+  p - 45px
+  background-color - acqua marine
+  body font color - black
+*/
+@media (min-width: 768px) {
+  body {
+    background-color: aquamarine;
+    border: 10px solid maroon;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  p {
+    font-size: 45px;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(16, 163, 114);
+    border: none;
+  }
+
+  p {
+    font-size: 55px;
+  }
+}
